@@ -1,0 +1,696 @@
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: rgb(44, 47, 63);
+}
+.over{
+  position: fixed;
+}
+.logo {
+  border-radius: 50%;
+  margin: 15px auto;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-left: auto;
+  display: block;
+  width: 120px;
+  border: 8px solid #2c2f3f;
+}
+
+.names {
+  font-style: normal;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 24px;
+}
+
+.socialIcon {
+  font-size: 20px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.5s;
+}
+
+.socialIcon :hover {
+  background: #149ddd;
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.5s;
+}
+
+.link-icon {
+  font-size: 20px;
+  margin: 7px;
+}
+
+.link-icon :hover {
+  color: #1890ff;
+}
+
+.par .link-scroll{
+  text-decoration: none;
+}
+
+.par {
+  font-size: 18px;
+}
+
+.par :hover {
+  color: white;
+}
+
+
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+  margin-left: -900px;
+}
+
+.Design {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  margin-left: -900px;
+  color: #eaebf0;
+}
+
+
+.site-layout-background {
+  background: url(../assets/images/images.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+.home-container {
+  height: 100vh;
+  margin-left: 298px;
+  text-align: center;
+  padding: 20% 10% 10% 10%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.paragraph-container {
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.paragraph-container .paragraph  {
+  position: relative;
+  min-width: 300px;
+}
+
+.paragraph h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.paragraph p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+} 
+
+
+.about-container {
+  
+  background-color:#F8F8FF;
+  margin-left: 298px;
+  
+  
+}
+
+.intro-content{
+  background-color: white;
+  /* position: relative; left:2%;  */ }
+
+ .about-container h1 {
+  font-size: 2em;
+  font-weight: bolder;
+  position: relative;
+  margin-top: 80px;
+  color: #173b6c;
+  margin-left: 10px;
+  font-style: Segoe UI;
+ }
+
+hr{
+  height: 4px;
+  width: 70px;
+  text-align: left;
+  
+  position: relative; right:48.3%; top:0em;
+  transition-delay: 1s;
+  background: rgb(57, 175, 243);;
+ }
+ .about-paragraph{
+  font-size: 1.2em;
+  font-style:Segoe UI;
+  line-height: 20px;
+ }
+ .row{
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-gap: 2%;
+   padding: 10px;
+ }
+ .column1{
+   margin: 6%;
+ }
+ .row img{
+   width: 100%;
+   height:90%;
+   
+ }
+ .birth-row{
+   column-count: 2;
+ }
+ .row .birth-row li{
+  
+  list-style:none;
+  font-size: 1.2em;
+  line-height: 50px;
+}
+.row .birth-row li:before {
+  content: ">";
+  font-weight: 600;
+  color: rgb(57, 175, 243);
+}
+ .row .birth-row li span{
+  font-weight: bolder;
+}
+
+.intro-content p{
+  font-size: 1.2em;
+  font-style:Segoe UI;
+}
+.about-container .numbers{
+  font-size: 350%;
+  font-weight: bolder;
+}
+.about-container .numbers p{
+  font-size: 30%;
+  margin-left: 40%;
+}
+
+.facts h1{
+  font-size: 2em;
+  font-weight: bolder;
+  position: relative;
+  margin-top: 80px;
+  color: #173b6c;
+  margin-left: 10px;
+  font-style: Segoe UI;
+
+}
+.facts p {
+  font-size: 1.3em;
+  font-style: Segoe UI;
+  
+}
+
+.facts .count-down-row{
+  position: relative; top:1%;
+  font-style: Segoe UI;
+  font-size: 1.3em;
+ 
+ }
+
+ .facts .count-down-row .emoji{
+   color:#149ddd;
+ 
+ }
+
+
+.rows{
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2%;
+  padding: 10px;
+ 
+
+}
+
+.skills-content h1{
+
+  font-size: 2em;
+  font-weight: bolder;
+  position: relative;
+  margin-top: 80px;
+  color: #173b6c;
+  margin-left: 10px;
+  font-style: Segoe UI;
+
+}
+
+.skills-content-pa p{
+  font-size: 1.3em;
+  font-style: Segoe UI;
+
+}
+
+
+#skills-section{
+  margin-left: 5%;
+}
+/* 
+ .skills {
+  padding: 140px 0;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 50px;
+
+ 
+} */
+.skills .service {
+  padding: 20px 10px;
+  font-size: 1.3em;
+  font-style: Segoe UI;
+}
+.skills h2 {
+  color: #131212;
+}
+.skills h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #131212;
+}
+.skills p {
+  color: rgba(255, 255, 255, 0.7);
+}
+.space {
+  margin-top: 20px;
+ 
+}
+.skills i.fa,
+.skills i.fab {
+  font-size: 30px;
+  color: #26b4e7;
+  transition: all 0.5s;
+ 
+}
+
+
+.resume-container {
+  
+  background-color: #fff;
+  margin-left: 298px;
+  margin-top: auto;
+  
+}
+
+
+.Resume-content h1{
+  font-size: 2em;
+  font-weight: bold;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #173b6c;
+  font-style: Segoe UI;
+
+}
+
+.resume .section-title h2{
+  font-size: 1.3em;
+  font-style: Segoe UI;
+
+}
+.resume .section-title p{
+  font-size: 1.3em;
+  font-style: Segoe UI;
+}
+
+.resume .resume-title {
+  font-size: 1.7em;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 500px;
+  padding: auto;
+  margin-bottom: 20px;
+  color: #173b6c;
+  
+}
+
+.resume .resume-item  {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+  font-size: 1.3em;
+  font-style: Segoe UI;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 1.2em;
+  font-style: Segoe UI;
+  font-weight: 550;
+  width: 500px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 1.3em;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-style: Segoe UI;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  font-style:Segoe UI;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+
+.skills-content h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0a0909;
+}
+
+
+.skills-content i{
+  font-size: 40px;
+  color: #26b4e7;
+  transition: all 0.5s; 
+}
+
+.portfolio-container{
+
+  
+  background-color: #F8F8FF;
+  margin-left: 298px;
+  margin-top: auto;
+}
+
+.portfolio .section-title h2{
+
+  font-size: 2em;
+  font-weight: bold;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #173b6c;
+  font-style: Times New Roman;
+
+}
+.portfolio .section-title p{
+  font-size: 1.3em;
+  font-style: Segoe UI;
+}
+
+
+.portfolio .portfolio-flters {
+  padding: 0;
+  margin: 0 auto 35px 250px;
+  list-style: none;
+  text-align: center;
+  background: #fff;
+  border-radius: 50px;
+  padding: 2px 15px;
+}
+
+.portfolio .portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #272829;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio .portfolio-flters li:hover, 
+.portfolio .portfolio-flters li.filter-active {
+  color: #149ddd;
+}
+
+.portfolio .portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+
+
+.service-container{
+
+ 
+  background-color: #fff;
+  margin-left: 298px;
+  margin-top: auto;
+}
+
+.service .section-title h2{
+
+  font-size: 2em;
+  font-weight: bold;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #173b6c;
+  font-style: Segoe UI;
+
+}
+
+.service .section-title p{
+  font-size: 1.3em;
+  font-style: Segoe UI;
+}
+
+
+
+.photo{
+  height: 1%;
+  width:30%;
+}
+.icon{
+  color:white;
+  width:15.15%;
+  height: 10%;
+  margin: -2px;
+
+  background-color: black;
+}
+.icon1{
+  margin-top: -1%;
+}
+
+
+.contact-container {
+  
+  background-color:#F8F8FF;
+  margin-left: 298px;
+  
+  
+}
+.contact-content h1{
+
+  font-size: 2em;
+  font-weight: bold;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #173b6c;
+  font-style: Segoe UI;
+}
+
+.contact-content p{
+  font-size: 1.3em;
+  font-style: Segoe UI;
+}
+
+.contact-row{
+  column-count: 2;
+}
+
+
+.form-content {
+ margin-top: 40px;
+}
+
+.form-content label{
+  font-size: 20px;
+  font-style: Segoe UI;
+}
+
+.form-content button{
+  height: 40px;
+  width: 150px;
+  margin-left: 20px;
+  font-style: Segoe UI;
+}
+
+
+
+.contact-social ul {
+  margin-top: 30px;
+  
+}
+ .contact-social ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+ .contact-social i.fa {
+  font-size: 100px;
+  padding-top: 5px;
+  color: #26b4e7;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.contact-social i.fa:hover {
+  color: #a13e1a;
+}
+
+
+
+
+
+
+.contactus {
+  padding-bottom: 130px;
+}
+
+.contactus .info {
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contactus .info i {
+  font-size: 20px;
+  color: #149ddd;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #dff3fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contactus .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+
+.contactus .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  font-style: Segoe UI;
+  color: #1e1f22;
+}
+
+
+
+
+
+.contactus .info .email p {
+  padding-top: 5px;
+}
+
+.contactus .info .social-links {
+  padding-left: 60px;
+}
+
+.contactus .info .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.contactus .info .social-links a:hover {
+  background: #149ddd;
+  color: #fff;
+}
+
+.contactus .info .email:hover i,
+.contactus .info .address:hover i,
+.contactus .info .phone:hover i {
+  background: #149ddd;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
