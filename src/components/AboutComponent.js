@@ -26,7 +26,7 @@ const AboutComponent =()=>{
     <div className="intro-content">
         <h1> About </h1>
         <hr/>
-        <p className="about-paragraph">I am a full stack developper,I decided to take a class of programming because liked it firstly and i wanted to improve my skills and knowledge, i wanted to be a software developer and even more,i really wanted to go deeper in coding. Constantly learning new languages through-out the pendamic made me realise how much i love coding and how i see my future in the feild compared to the work I did earlier. Interning for almost 5 months has been extreamly exciting and helped me learn so many new things.</p>
+        <p className="about-paragraph">I am a full stack developper, I decided to take a class of programming because its  my dream and I wanted to improve my skills and knowledge in programming, I wanted to be a software developer and even more, I really wanted to be good at software developing. in order to achieve on this keeping learning new langwages through-out the pendamic made me realise how much I love coding and how I see my future in the field compared to the work I did earlier. During 4 months I have been here I was so excited and helped to learn more about languages like React Js, Node Js, and JavaScript .</p>
 
 
         <div className="row">
@@ -36,22 +36,22 @@ const AboutComponent =()=>{
             <div className="col2">
             <h1>UI/UX Designer & Web Developer.</h1>
             <p className="about-paragraph">
-            more specifically, I do designs and I create websites, i also I do design mockups and use them to create websites, that really push me to learn more and more web designer and developer .</p>
+            More specifically, I do designs, create websites and design mockups, that really push me to learn a lots web Design.</p>
             <div className="birth-row">
                     <ul>
-                        <li> <span> Birthday:</span> 15 February 1995</li>
+                        <li> <span> Birthday:</span> 15 February 1994</li>
                         <li><span>Social Media: </span>Twitter & Instagram</li>
                         <li><span>Phone: </span>+250 783411559</li>
                         <li><span> City: </span> Kigali, Rwanda</li>
                     </ul>
                     <ul>
-                    <li> <span> Age: </span>  25</li>
+                    <li> <span> Age: </span>  27</li>
                         <li><span>Email: </span>meddyu15@gmail.com</li>
                         <li><span>Degree: </span>Bachelor’s</li>
                         <li><span> Freelance: </span> Available</li>
                     </ul>
             </div>
-            <p>I primarily use Node Js and React Js,but picking up a new framework or language ins't a poblem. i have extensive programming experience and i am confortable developing on the frontend or backend as well as setting up or managing infrastructure. </p>
+            <p>I primarily use Node Js and React Js,but picking up a new framework or language ins't a poblem. I have extensive programming experience and I am confortable developing on the frontend or backend.</p>
             </div>
             </div>
      </div>
@@ -61,7 +61,7 @@ const AboutComponent =()=>{
 <div className="facts">
         <h1> Facts </h1>
         <hr/>  
-        <p> Full-stack developer was the most selected job title. A full-stack developer usually knows between five and six major programming languages and frameworks. Executives typically consider themselves to be full-stack developers. They are usually more comfortable using different technologies mostly because they tend to have more experience and have been in the industry longer.</p>
+        <p> Full-stack developer was the most selected job title. A full-stack developer usually knows between five and six major programming languages like React Js, Node Js, JavaScript, HHTML, CSS, BootStap and frameworks. Executives typically consider themselves to be full-stack developers. They are usually more comfortable using different technologies mostly because they tend to have more experience and have been in the industry longer.</p>
 
         <div className="count-down-row">
         {/* <Divider orientation="left">Sub-Element Align Full</Divider> */}

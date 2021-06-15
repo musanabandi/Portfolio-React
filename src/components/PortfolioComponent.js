@@ -24,7 +24,7 @@ const PortfolioComponent =()=>{
           <h2>Portfolio</h2>
           <hr/> 
          
-          <p>website you create to show off your skills, experience, projects, and even your personality to potential clients and/or employers.</p>
+          <p>website we created shows your skills, experience, projects developed, and even your personality to potential clients and/or employers.</p>
         </div>
 
         <div className="row">
